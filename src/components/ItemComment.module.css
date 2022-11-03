@@ -1,0 +1,28 @@
+.item_box {
+  width: 423px;
+  height: 321px;
+  border-radius: 32px;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 54px 60px 50px;
+  gap: 19px;
+}
+
+.item_box p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  color: #ffffff;
+  height: 120px;
+  width: 313px;
+}
+.item_box span {
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
