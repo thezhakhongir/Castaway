@@ -1,0 +1,8 @@
+.icons {
+  display: flex;
+  gap: 17px;
+}
+
+.icons svg {
+  cursor: pointer;
+}

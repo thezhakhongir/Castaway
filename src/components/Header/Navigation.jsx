@@ -1,6 +1,6 @@
-export const Navigation = () => {
+export const Navigation = (props) => {
   return (
-    <ul className="nav_list">
+    <ul className="nav_list" {...props}>
       <li>Home</li>
       <li>Episodes</li>
       <li>About</li>

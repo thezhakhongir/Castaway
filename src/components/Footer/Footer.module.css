@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  display: flex;
+  margin-bottom: 127px;
+}
+.first_column {
+  display: flex;
+  flex-direction: column;
+  width: 37%;
+}
+
+.third_column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 13%;
+}
+.third_column li {
+  font-size: 1.185vw;
+}
+.third_column li:hover {
+  color: #118da8;
+}
+
+.footer_icon {
+  display: flex;
+  gap: 13px;
+  margin-top: 26px;
+}
+
+.footer_icon svg {
+  cursor: pointer;
+}

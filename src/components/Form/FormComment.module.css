@@ -1,0 +1,45 @@
+.comment_section {
+  padding: 60px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 32px;
+  margin-bottom: 200px;
+}
+
+.comment_text {
+  max-width: 40%;
+}
+
+.comment_uppertitle {
+  font-size: 1.32vw;
+  color: #118da8;
+}
+
+.comment_title {
+  font-weight: 400;
+  font-size: 5.27vw;
+  line-height: 10vh;
+  letter-spacing: 2.88px;
+}
+
+.comment_form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+  width: 50%;
+}
+
+.comment_form input {
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 6px;
+  padding: 26px 19px;
+  font-size: 2vw;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 522px;
+  width: 100%;
+  outline: none;
+}

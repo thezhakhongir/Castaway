@@ -7,13 +7,12 @@ header {
 
 .nav_list {
     display: flex;
+    align-items: start;
     gap: 40px;
 }
 
 .nav_list li {
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 27px;
+    font-size: 1.185vw;
     cursor: pointer;
 }
 
