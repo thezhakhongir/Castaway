@@ -1,0 +1,25 @@
+.item_box {
+  width: 32%;
+  border-radius: 32px;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 19px;
+  padding: 92px 50px 51px 50px;
+}
+
+.item_comment {
+  width: 100%;
+  font-size: 2.64vw;
+  line-height: 120%;
+}
+.item_name{
+  font-size: 1.76vw;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.trash_icon{
+  align-self: flex-end;
+  max-width: 40px;
+}

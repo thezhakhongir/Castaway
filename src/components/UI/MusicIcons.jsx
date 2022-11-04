@@ -6,9 +6,9 @@ import {
   Spotify,
 } from "../../store/icons/icons";
 import "./MusicIcons.css";
-export const MusicIcons = () => {
+export const MusicIcons = (props) => {
   return (
-    <div className="icons">
+    <div className="icons" {...props}>
       {Spotify}
       {Music2}
       {Soundloud}
