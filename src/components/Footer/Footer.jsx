@@ -6,7 +6,7 @@ import { Navigation } from "../Header/Navigation";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="contact">
       <div className={classes.first_column}>
         {Logo}
         <div className={classes.footer_icon}>
@@ -26,7 +26,6 @@ const Footer = () => {
         <li>Style Guide</li>
         <li>Instructions</li>
         <li>Changelog</li>
-        <li>Credit</li>
         <li>Credit</li>
         <li>Powered by Webflow</li>
         <li>Licenses</li>

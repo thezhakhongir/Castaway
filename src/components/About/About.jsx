@@ -3,7 +3,7 @@ import aboutPhoto from "./../../store/img/about-photo.png";
 import "./About.css";
 export const About = () => {
   return (
-    <section className="section about_section">
+    <section id="about" className="section about_section">
       <div className="about">
         <img src={aboutArrow} alt="" />
         <p className="about_meet">Meet your host</p>

@@ -4,7 +4,7 @@
   padding: 40px;
   background: #000000;
   border-radius: 32px;
-  margin-bottom: 260px;
+  margin-bottom: 60px;
 }
 
 .episodes_img img {
@@ -13,7 +13,7 @@
 }
 
 .episodes_descr {
-  max-width: 757px;
+  /*max-width: 757px;*/
   width: 60%;
 }
 
