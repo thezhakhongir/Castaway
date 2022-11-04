@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Castaway/static/css/main.746c23d4.css",
+    "main.js": "/Castaway/static/js/main.52ee6edd.js",
+    "static/media/about-photo.png": "/Castaway/static/media/about-photo.a954e4a0ce0c3fb5e820.png",
+    "static/media/profile-photo.png": "/Castaway/static/media/profile-photo.374d5da155457bced7ce.png",
+    "static/media/episodes1.png": "/Castaway/static/media/episodes1.d056aec6ed75aaf6e245.png",
+    "static/media/epizode3.png": "/Castaway/static/media/epizode3.7b35684fcf7385a91ea3.png",
+    "static/media/episode2.png": "/Castaway/static/media/episode2.cd291bbd2a26af26af84.png",
+    "static/media/trash.svg": "/Castaway/static/media/trash.4843d2826a6aa83eee7a4a0c1b440996.svg",
+    "index.html": "/Castaway/index.html",
+    "main.746c23d4.css.map": "/Castaway/static/css/main.746c23d4.css.map",
+    "main.52ee6edd.js.map": "/Castaway/static/js/main.52ee6edd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.746c23d4.css",
+    "static/js/main.52ee6edd.js"
+  ]
+}
