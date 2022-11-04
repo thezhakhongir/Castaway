@@ -1,16 +1,20 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import FormComment from "./components/FormComment";
+import Footer from "./components/Footer/Footer";
+import FormComment from "./components/Footer/FormComment";
 
-import ItemListComment from "./components/ItemListComment";
+import ItemListComment from "./components/Footer/ItemListComment";
+import { Header } from "./components/Header/Header";
+import { Home } from "./components/Home/Home";
 
 function App() {
   return (
-    <div>
+    <>
+      <Header />
+      <Home />
       <FormComment />
       <ItemListComment />
       <Footer />
-    </div>
+    </>
   );
 }
 

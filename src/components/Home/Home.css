@@ -1,0 +1,38 @@
+.home_section {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 93px;
+}
+
+.home_right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 90px;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+}
+
+.next_text {
+    text-decoration: underline #118DA8;
+}
+
+.subtitle {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.icons {
+    display: flex;
+    gap: 17px;
+}
+
+.icons svg {
+    cursor: pointer;
+}
