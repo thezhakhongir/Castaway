@@ -1,8 +1,5 @@
 import "./App.css";
-import Footer from "./components/Footer/Footer";
-import FormComment from "./components/Footer/FormComment";
-
-import ItemListComment from "./components/Footer/ItemListComment";
+import { Episodes } from "./components/Episodes/Episodes";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 
@@ -11,9 +8,7 @@ function App() {
     <>
       <Header />
       <Home />
-      <FormComment />
-      <ItemListComment />
-      <Footer />
+      <Episodes />
     </>
   );
 }

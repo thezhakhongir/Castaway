@@ -1,11 +1,5 @@
+import { MusicIcons } from "../UI/MusicIcons";
 import profilePhoto from "./../../store/img/profile-photo.png";
-import {
-  Itunes,
-  Music2,
-  Radio,
-  Soundloud,
-  Spotify,
-} from "../../store/icons/icons";
 import "./Home.css";
 
 export const Home = () => {
@@ -19,16 +13,9 @@ export const Home = () => {
           Take your podcast to the <span className="next_text">next</span>{" "}
           <b>level</b>
         </p>
-
         <div>
           <p className="subtitle">Listen on</p>
-          <div className="icons">
-            {Spotify}
-            {Music2}
-            {Soundloud}
-            {Itunes}
-            {Radio}
-          </div>
+          <MusicIcons />
         </div>
       </div>
     </section>

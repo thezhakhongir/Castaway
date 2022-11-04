@@ -1,0 +1,18 @@
+.title_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+.title_box h1 {
+  font-size: 64px;
+  line-height: 79px;
+  letter-spacing: 2.88px;
+  font-weight: 400;
+}
+
+.episodes {
+  display: flex;
+  flex-direction: column;
+}
