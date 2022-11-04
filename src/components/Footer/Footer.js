@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import img1 from "../store/img/1.svg";
+import img1 from "../../store/img/1.svg";
 
 const Footer = () => {
   return (
@@ -21,21 +21,21 @@ const Footer = () => {
               <img
                 style={{ width: "40px", height: "35px" }}
                 src={img1}
-                alt=''
+                alt=""
               />
             </li>
             <li>
               <img
                 style={{ width: "40px", height: "35px" }}
                 src={img1}
-                alt=''
+                alt=""
               />
             </li>
             <li>
               <img
                 style={{ width: "40px", height: "35px" }}
                 src={img1}
-                alt=''
+                alt=""
               />
             </li>
           </ul>

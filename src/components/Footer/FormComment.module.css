@@ -1,4 +1,4 @@
-.form_commment {
+.form_comment {
   background-color: rgba(0, 0, 0, 1);
   width: 1300px;
   height: 387px;
@@ -21,7 +21,6 @@
   background: #191919;
   border: 1px solid #191919;
   border-radius: 6px;
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;

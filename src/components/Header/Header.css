@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 0;
+    margin-bottom: 40px;
+}
+
+.nav_list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_list li {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.nav_list li:hover {
+    color: #118DA8;
+}
