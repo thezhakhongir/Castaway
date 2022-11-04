@@ -22,4 +22,5 @@
 .trash_icon{
   align-self: flex-end;
   max-width: 40px;
+  cursor: pointer;
 }

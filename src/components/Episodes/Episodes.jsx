@@ -1,6 +1,7 @@
 import { Button } from "../UI/Button";
 import "./Episodes.css";
 import { EpisodesItem } from "./EpisodesItem";
+import { data } from "../../store/data/data";
 
 export const Episodes = () => {
   return (
@@ -10,7 +11,9 @@ export const Episodes = () => {
         <Button>View all episodes</Button>
       </div>
       <div className="episodes">
-        <EpisodesItem />
+        {data.map((data) => {
+          return <EpisodesItem data={data} />;
+        })}
       </div>
     </section>
   );

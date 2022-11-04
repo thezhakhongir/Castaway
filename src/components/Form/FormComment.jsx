@@ -10,9 +10,15 @@ const FormComment = ({ addNewComment }) => {
       userName: userComment.userName,
       id: Date.now(),
     };
-    setUserComment({ title: "", userName: "" });
-    addNewComment(newComment);
     e.preventDefault();
+    if (
+      userComment.title.trim().length !== 0 &&
+      userComment.userName.trim().length !== 0
+    ) {
+      addNewComment(newComment);
+    }
+
+    setUserComment({ title: "", userName: "" });
   };
   return (
     <section className={classes.comment_section}>
@@ -22,6 +28,7 @@ const FormComment = ({ addNewComment }) => {
       </div>
       <form className={classes.comment_form} onSubmit={addUserComment}>
         <input
+          required
           value={userComment.title}
           onChange={(e) =>
             setUserComment({ ...userComment, title: e.target.value })
@@ -30,6 +37,7 @@ const FormComment = ({ addNewComment }) => {
           placeholder="Comment"
         />
         <input
+          required
           value={userComment.userName}
           onChange={(e) =>
             setUserComment({ ...userComment, userName: e.target.value })

@@ -12,11 +12,13 @@ footer {
 .third_column {
   display: flex;
   flex-direction: column;
+  align-items: start;
   gap: 10px;
   width: 13%;
 }
 .third_column li {
   font-size: 1.185vw;
+  cursor: pointer;
 }
 .third_column li:hover {
   color: #118da8;

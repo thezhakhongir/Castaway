@@ -27,7 +27,6 @@ const Footer = () => {
         <li>Instructions</li>
         <li>Changelog</li>
         <li>Credit</li>
-        <li>Credit</li>
         <li>Powered by Webflow</li>
         <li>Licenses</li>
       </ul>
