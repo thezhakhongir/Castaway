@@ -1,0 +1,41 @@
+.form_commment {
+  background-color: rgba(0, 0, 0, 1);
+  width: 1300px;
+  height: 387px;
+  border-radius: 32px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 522px;
+  height: 252px;
+  gap: 20px;
+}
+.form input {
+  padding-left: 19px;
+  height: 82px;
+  background: #191919;
+  border: 1px solid #191919;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.form button {
+  display: flex;
+  width: 87px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(17, 141, 168, 1);
+  border-radius: 6px;
+}
