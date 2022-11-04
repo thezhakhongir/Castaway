@@ -27,11 +27,13 @@ function App() {
   return (
     <>
       <Header />
-      <Home />
-      <Episodes />
-      <About />
-      <FormComment addNewComment={addNewCommentHandler} />
-      <ItemListComment comments={comments} onDelete={deleteHandler} />
+      <main>
+        <Home />
+        <Episodes />
+        <About />
+        <FormComment addNewComment={addNewCommentHandler} />
+        <ItemListComment comments={comments} onDelete={deleteHandler} />
+      </main>
       <Footer />
     </>
   );
