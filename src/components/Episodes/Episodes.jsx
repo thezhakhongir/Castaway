@@ -5,7 +5,7 @@ import { data } from "../../store/data/data";
 
 export const Episodes = () => {
   return (
-    <section className="section episodes_section">
+    <section id="episodes" className="section episodes_section">
       <div className="title_box">
         <h1>Latest episodes</h1>
         <Button>View all episodes</Button>

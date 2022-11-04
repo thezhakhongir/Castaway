@@ -4,7 +4,7 @@ import "./Home.css";
 
 export const Home = () => {
   return (
-    <section className="section home_section">
+    <section id="home" className="section home_section">
       <div className="home_left">
         <img src={profilePhoto} alt="profile" />
       </div>
